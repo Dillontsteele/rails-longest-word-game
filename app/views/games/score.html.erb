@@ -1,0 +1,7 @@
+<% if @include == false %>
+<%= "Sorry but #{@word} can't be built out of #{@letters}" %>
+<% else %>
+<%= "Bravo" %>
+<% end %>
+
+<p class="link"><%= link_to "Play again", new_path %></p>
